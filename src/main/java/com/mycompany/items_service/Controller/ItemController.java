@@ -83,7 +83,7 @@ public class ItemController {
     ) {
         itemService.deleteItem(id);
 
-        ResponseEntity<Void> response = new ResponseEntity<>(HttpStatus.NO_CONTENT); // Create the response with 204 status
-        return response; // Return the response later
+        ResponseEntity<Void> response = new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        return response;
     }
 }
